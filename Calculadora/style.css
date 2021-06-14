@@ -1,0 +1,117 @@
+body{
+    background: hsl(222, 26%, 31%);
+    font-family: 'Spartan', sans-serif;
+}
+
+.container{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.title{
+    font-size: 32px;
+    color:white;
+    margin-bottom: 5%;
+}
+
+.visor{
+    width: 98%;
+    height: 80px;
+    border-radius: 9px;
+    border: none;
+    margin-bottom: 5%;
+    background: hsl(225,33%,14%);
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+}
+
+.botaoNumero{
+    width: 20%;
+    height: 50px;
+    border-radius: 9px;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    font-size: 32px;
+    text-align: center;
+    color: hsl(225,28%,20%);
+    border: none;
+    font-family: 'Spartan', sans-serif;
+    background: hsl(40,21%,89%);
+    cursor: pointer;
+
+}
+
+.botaoC{
+    width: 20%;
+    height: 50px;
+    border-radius: 9px;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    background: hsl(223,19%,49%);
+    border: none;
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+}
+
+.containerBotoes{
+    display: flex;
+    flex-wrap: wrap;
+    background: hsl(223, 31%, 20%);
+    border-radius: 9px;
+    padding-top: 5%;
+}
+.containerBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.resetBotao{
+    width: 45%;
+    height: 50px;
+    border: none;
+    border-radius: 9px;
+    background: hsl(224,21%,49%);
+    font-size: 32px;
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+}
+
+.resultadoBotao{
+    width: 45%;
+    height: 50px;
+    border: none;
+    background: hsl(6,63%,50%);
+    border-radius: 9px;
+    font-size: 32px;
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    cursor: pointer;
+}
+
+/* BOTOES ATIVOS */
+
+.resetBotao:active{
+    transform: scale(0.9);
+}
+
+
+.resultadoBotao:active{
+    transform: scale(0.9);
+}
+
+.botaoC:active{
+    transform: scale(0.9);
+}
+
+.botaoNumero:active{
+    transform: scale(0.9);
+}
