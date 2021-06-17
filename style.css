@@ -115,3 +115,9 @@ body{
 .botaoNumero:active{
     transform: scale(0.9);
 }
+
+@media(max-width:760px){
+    .container{
+        width: 80%;
+    }
+}
